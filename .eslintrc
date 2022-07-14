@@ -1,0 +1,14 @@
+{
+	"extends": [
+		"prettier"
+	],
+	"plugins": [	
+		"json-format",
+		"prettier",
+		"simple-import-sort"
+	],
+	"parser": "@typescript-eslint/parser",
+	"rules": {
+    "prettier/prettier": ["warn"]
+  }
+}
