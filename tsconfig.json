@@ -23,6 +23,7 @@
   "include": [
     "src",
     "src/pages",
-    "src/themes"
+    "src/themes",
+    "src/features/"
   ]
 }

@@ -2,7 +2,7 @@ import styled from 'styled-components/macro'
 
 export const Wrapper = styled.div`
   background-color: ${({ theme }) => theme.colors.primary};
-  color: ${({ theme }) => theme.colors.black};
+  color: ${({ theme }) => theme.colors.text};
 
   height: 100%;
   position: absolute;
