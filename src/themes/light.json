@@ -1,8 +1,7 @@
 {
   "colors": {
-    "black": "000000",
     "primary": "#e4d1b9",
     "secondary": "#8fbdd3",
-    "white": "#ffffff"
+    "text": "#1B1F23"
   }
 }
