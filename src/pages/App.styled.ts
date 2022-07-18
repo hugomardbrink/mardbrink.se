@@ -1,8 +1,8 @@
 import styled from 'styled-components/macro'
 
 export const Wrapper = styled.div`
-  background-color: #434c5e;
-  color: #e5e9f0;
+  background-color: ${({ theme }) => theme.colors.primary};
+  color: ${({ theme }) => theme.colors.black};
 
   height: 100%;
   position: absolute;
