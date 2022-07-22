@@ -1,14 +1,28 @@
 import styled, { css } from 'styled-components/macro'
+import Background from '../../res/background/OceanBoat.jpg'
 
 export const Wrapper = styled.div`
+  width: 100%;
+  height: auto;
+  padding-top: 16px;
+`
+
+export const OceanBoat = styled.img.attrs({
+  src: Background,
+  alt: 'OceanBoat',
+})`
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  position: absolute;
+`
+
+export const Content = styled.div`
   display: flex;
   flex-direction: row;
-  width: 100%;
-  height: 70px;
-  padding-top: 16px;
   align-items: flex-start;
   justify-content: space-between;
-  background-color: ${({ theme }) => theme.colors.secondary};
+  width: 100%;
 `
 
 const hoverCss = css`
@@ -29,20 +43,34 @@ const logoCss = css`
   ${hoverCss};
 `
 
+export const RightContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+`
+
+export const NavLink = styled.div`
+  ${hoverCss};
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: 32px;
+`
+
 export const SocialsContainer = styled.div`
-  margin-top: -4px;
+  margin-top: 4px;
   svg {
     ${logoCss};
   }
 `
 
 export const EscapeHatch = styled.div`
-  font-size: 28px;
+  font-size: 48px;
   font-weight: bold;
   margin-left: 16px;
-  ${hoverCss};
+  cursor: pointer;
 `
 
 export const Link = styled.a.attrs({ target: '_blank' })`
   text-decoration: none;
+  margin-right: 16px;
 `

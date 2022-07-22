@@ -1,5 +1,10 @@
+import { Header } from '../features/header/Header'
 import { Wrapper } from './Main.styled'
 
 export const Main = () => {
-  return <Wrapper>Hej</Wrapper>
+  return (
+    <Wrapper>
+      <Header />
+    </Wrapper>
+  )
 }

@@ -1,8 +1,9 @@
 import { createGlobalStyle } from 'styled-components/macro'
+import '@fontsource/roboto'
 
 export const GlobalStyle = createGlobalStyle`
   body {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-family: Roboto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;   
 

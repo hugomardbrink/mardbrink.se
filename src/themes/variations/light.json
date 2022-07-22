@@ -1,0 +1,10 @@
+{
+  "colors": {
+    "ocean": {
+      "deep": "#3e98c2",
+      "shallow": "#41a7cc"
+    },
+    "sky": "#aeeeff",
+    "text": "#3e3939"
+  }
+}
