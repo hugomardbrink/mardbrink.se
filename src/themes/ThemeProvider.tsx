@@ -1,8 +1,8 @@
 import { createContext, FC, ReactNode, useMemo, useState } from 'react'
 import { ThemeProvider as ThemesProvider } from 'styled-components'
-import dark from './dark.json'
+import dark from './variations/dark.json'
 import { GlobalStyle } from './GlobalStyle'
-import light from './light.json'
+import light from './variations/light.json'
 
 const themes = { light, dark }
 export const defaultTheme = themes.light
