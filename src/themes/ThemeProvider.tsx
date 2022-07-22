@@ -1,6 +1,7 @@
 import { createContext, FC, ReactNode, useMemo, useState } from 'react'
 import { ThemeProvider as ThemesProvider } from 'styled-components'
 import dark from './dark.json'
+import { GlobalStyle } from './GlobalStyle'
 import light from './light.json'
 
 const themes = { light, dark }
@@ -22,7 +23,10 @@ export const ThemeProvider: FC<ThemeProviderProps> = ({ children }) => {
 
   return (
     <ThemeContext.Provider value={value}>
-      <ThemesProvider theme={theme}>{children}</ThemesProvider>
+      <ThemesProvider theme={theme}>
+        <GlobalStyle />
+        {children}
+      </ThemesProvider>
     </ThemeContext.Provider>
   )
 }
