@@ -4,7 +4,7 @@ import Background from '../../res/background/OceanBoat.jpg'
 export const Wrapper = styled.div`
   width: 100%;
   height: auto;
-  padding-top: 16px;
+  padding-top: 12px;
 `
 
 export const OceanBoat = styled.img.attrs({
@@ -15,6 +15,7 @@ export const OceanBoat = styled.img.attrs({
   height: auto;
   z-index: -1;
   position: absolute;
+
   -webkit-user-drag: none;
   user-select: none;
   -moz-user-select: none;
@@ -28,7 +29,7 @@ export const Content = styled.div`
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  width: 100%;
+  margin: 0 32px;
 `
 
 const hoverCss = css`
@@ -71,7 +72,6 @@ export const SocialsContainer = styled.div`
 export const EscapeHatch = styled.div`
   font-size: 48px;
   font-weight: bold;
-  margin-left: 16px;
   cursor: pointer;
 `
 
