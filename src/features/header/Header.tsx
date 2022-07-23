@@ -8,7 +8,10 @@ export const Header = () => {
     <Wrapper>
       <OceanBoat />
       <Content>
-        <EscapeHatch>Hugo Mårdbrink</EscapeHatch>
+        <EscapeHatch>
+          <div>Hugo</div>
+          <div>Mårdbrink</div>
+        </EscapeHatch>
         <RightContainer>
           <NavLink>Resume</NavLink>
           <NavLink>Contact</NavLink>

@@ -15,6 +15,12 @@ export const OceanBoat = styled.img.attrs({
   height: auto;
   z-index: -1;
   position: absolute;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  pointer-events: none;
 `
 
 export const Content = styled.div`
@@ -53,7 +59,6 @@ export const NavLink = styled.div`
   ${hoverCss};
   font-size: 32px;
   font-weight: bold;
-  margin-right: 32px;
 `
 
 export const SocialsContainer = styled.div`
