@@ -54,6 +54,10 @@ export const RightContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  div:not(:last-child) {
+    margin-right: 24px;
+  }
 `
 
 export const NavLink = styled.div`
