@@ -9,4 +9,17 @@ export const GlobalStyle = createGlobalStyle`
 
     color: ${({ theme }) => theme.colors.text};
   }
+
+  ::-moz-selection {
+    color: ${({ theme }) => theme.colors.ocean.deep};
+    background: unset;
+  }
+    
+  ::selection {
+    color: ${({ theme }) => theme.colors.ocean.deep};
+    background: unset;
+  }
+
+
+
 `
