@@ -10,3 +10,18 @@ export const Wrapper = styled.main`
   background-color: ${({ theme }) => theme.colors.sky};
   z-index: -1000;
 `
+
+export const Content = styled.div`
+  box-sizing: border-box;
+  border: solid ${({ theme }) => theme.colors.text} 10px;
+  background-color: ${({ theme }) => theme.colors.ocean.shallow};
+  margin: 50px 100px;
+  overflow-y: scroll;
+  height: calc(100% - 100px);
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+`
