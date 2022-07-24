@@ -1,10 +1,7 @@
 {
   "colors": {
-    "ocean": {
-      "deep": "#3e98c2",
-      "shallow": "#41a7cc"
-    },
-    "sky": "#aeeeff",
-    "text": "#3e3939"
+    "background": "#e0c9a6",
+    "selection": "#ffffff",
+    "text": "#34312a"
   }
 }
