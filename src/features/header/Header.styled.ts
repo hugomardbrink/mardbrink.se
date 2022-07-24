@@ -1,27 +1,8 @@
 import styled, { css } from 'styled-components/macro'
-import Background from '../../res/background/OceanBoat.jpg'
 
 export const Wrapper = styled.div`
-  width: 100%;
   height: auto;
-  padding-top: 12px;
-`
-
-export const OceanBoat = styled.img.attrs({
-  src: Background,
-  alt: 'OceanBoat',
-})`
-  width: 100%;
-  height: auto;
-  z-index: -1;
-  position: absolute;
-
-  -webkit-user-drag: none;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  pointer-events: none;
+  margin: 32px;
 `
 
 export const Content = styled.div`
@@ -29,7 +10,6 @@ export const Content = styled.div`
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  margin: 0 32px;
 `
 
 const hoverCss = css`
