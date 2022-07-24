@@ -43,7 +43,7 @@ export const RightContainer = styled.div`
 export const NavLink = styled.div`
   ${hoverCss};
   font-size: 32px;
-  font-weight: bold;
+  font-weight: 600;
 `
 
 export const SocialsContainer = styled.div`
@@ -55,7 +55,7 @@ export const SocialsContainer = styled.div`
 
 export const EscapeHatch = styled.div`
   font-size: 48px;
-  font-weight: bold;
+  font-weight: 600;
   cursor: pointer;
 `
 
