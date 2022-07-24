@@ -11,12 +11,12 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   ::-moz-selection {
-    color: ${({ theme }) => theme.colors.ocean.deep};
+    color: ${({ theme }) => theme.colors.selection};
     background: unset;
   }
     
   ::selection {
-    color: ${({ theme }) => theme.colors.ocean.deep};
+    color: ${({ theme }) => theme.colors.selection};
     background: unset;
   }
 
