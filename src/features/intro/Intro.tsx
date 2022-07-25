@@ -1,4 +1,4 @@
-import { Text, Wrapper } from './Into.styled'
+import { Text, Wrapper } from './Intro.styled'
 
 export const Intro = () => {
   return (
