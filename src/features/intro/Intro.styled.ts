@@ -19,17 +19,17 @@ export const IntroText = styled.div`
 export const AboutContainer = styled.div`
   justify-self: right;
   align-self: flex-end;
-  margin-top: 130px;
+  margin-top: 80px;
   text-align: right;
-  width: 43%;
+  width: 46%;
 `
 
 export const AboutHeader = styled.div`
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 600;
 `
 
 export const AboutText = styled.div`
-  font-size: 20px;
+  font-size: 28px;
   margin-top: 6px;
 `
