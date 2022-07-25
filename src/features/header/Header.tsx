@@ -1,13 +1,13 @@
 import GithubLogo from '../../res/icons/GithubLogo'
 import LinkedInLogo from '../../res/icons/LinkedInLogo'
 import { GITHUB_URL, LINKEDIN_URL } from './constants'
-import { EscapeHatch, Wrapper, Content, NavLink, RightContainer } from './Header.styled'
+import { Name, Wrapper, Content, NavLink, RightContainer } from './Header.styled'
 
 export const Header = () => {
   return (
     <Wrapper>
       <Content>
-        <EscapeHatch>Hugo Mårdbrink</EscapeHatch>
+        <Name>Hugo Mårdbrink</Name>
         <RightContainer>
           <NavLink>Resume</NavLink>
           <NavLink>Contact</NavLink>
