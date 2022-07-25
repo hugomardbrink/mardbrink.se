@@ -2,8 +2,8 @@ import styled from 'styled-components/macro'
 
 export const Wrapper = styled.div`
   height: auto;
-  margin-left: 32px;
-  margin-top: 64px;
+  margin-left: 36px;
+  margin-top: 100px;
   width: 50%;
 `
 
