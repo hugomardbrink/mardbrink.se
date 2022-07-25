@@ -1,4 +1,5 @@
 import { Header } from '../features/header/Header'
+import { Intro } from '../features/into/Intro'
 import { Content, Wrapper } from './Main.styled'
 
 export const Main = () => {
@@ -6,6 +7,7 @@ export const Main = () => {
     <Wrapper>
       <Content>
         <Header />
+        <Intro />
       </Content>
     </Wrapper>
   )
