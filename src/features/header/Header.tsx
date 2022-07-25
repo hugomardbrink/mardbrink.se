@@ -1,5 +1,3 @@
-import GithubLogo from '../../res/icons/GithubLogo'
-import LinkedInLogo from '../../res/icons/LinkedInLogo'
 import { GITHUB_URL, LINKEDIN_URL } from './constants'
 import { Name, Wrapper, Content, NavLink, RightContainer } from './Header.styled'
 

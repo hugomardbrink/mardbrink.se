@@ -1,4 +1,4 @@
-import { createContext, FC, ReactNode, useMemo, useState } from 'react'
+import { createContext, FC, ReactNode, useContext, useMemo, useState } from 'react'
 import { ThemeProvider as ThemesProvider } from 'styled-components'
 import dark from './variations/dark.json'
 import { GlobalStyle } from './GlobalStyle'
@@ -11,7 +11,10 @@ export type ThemeType = typeof defaultTheme
 
 export const ThemeContext = createContext({
   theme: defaultTheme,
+  changeTheme: () => {},
 })
+
+export const useTheme = () => useContext(ThemeContext)
 
 export interface ThemeProviderProps {
   children?: ReactNode
@@ -19,7 +22,10 @@ export interface ThemeProviderProps {
 
 export const ThemeProvider: FC<ThemeProviderProps> = ({ children }) => {
   const [theme, setTheme] = useState(defaultTheme)
-  const value = useMemo(() => ({ theme }), [theme])
+  const changeTheme = () => {
+    setTheme(theme === themes.light ? themes.dark : themes.light)
+  }
+  const value = useMemo(() => ({ theme, changeTheme }), [theme, changeTheme])
 
   return (
     <ThemeContext.Provider value={value}>
