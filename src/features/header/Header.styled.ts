@@ -53,10 +53,9 @@ export const SocialsContainer = styled.div`
   }
 `
 
-export const EscapeHatch = styled.div`
+export const Name = styled.div`
   font-size: 48px;
   font-weight: 600;
-  cursor: pointer;
 `
 
 export const Link = styled.a.attrs({ target: '_blank' })`
