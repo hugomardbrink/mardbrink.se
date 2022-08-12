@@ -1206,6 +1206,11 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
+"@fontsource/aileron@^4.5.3":
+  version "4.5.3"
+  resolved "https://registry.yarnpkg.com/@fontsource/aileron/-/aileron-4.5.3.tgz#cc6b1f1fe5505d4a83acccd909f3858c67224dd8"
+  integrity sha512-pFqJqwhvNSb5bkrMRCJ66eyxtosPtR0THTfti6l1sl9vBWs7kQlu0mzXPdqr9qyLy82OnzsQhBGYCBszbbiV/w==
+
 "@fontsource/merriweather-sans@^4.5.8":
   version "4.5.8"
   resolved "https://registry.yarnpkg.com/@fontsource/merriweather-sans/-/merriweather-sans-4.5.8.tgz#6c2bfdcdb4abe68877141012c881f725e8bb39b2"
