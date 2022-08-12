@@ -1,4 +1,4 @@
-import { NameTitle } from '../features/NameTitle'
+import { NameTitle } from '../features/Title'
 import { Wrapper } from './Main.styled'
 
 export const Main = () => {

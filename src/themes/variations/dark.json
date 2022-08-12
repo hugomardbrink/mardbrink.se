@@ -1,8 +1,7 @@
 {
   "colors": {
-    "background": "#34312a",
-    "backgroundDark": "#322f29",
-    "selection": "#ffffff",
-    "text": "#cbb294"
+    "background": "#232323",
+    "selection": "#006a6a",
+    "text": "#fbf8f3"
   }
 }

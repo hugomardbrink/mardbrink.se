@@ -5,10 +5,10 @@ export const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 10vw;
+  margin: 4vw 10vw;
 `
 
 export const NameContainer = styled.div`
   font-family: Ailerons;
-  font-size: 160px;
+  font-size: 12vw;
 `

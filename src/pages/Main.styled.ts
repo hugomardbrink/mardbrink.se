@@ -7,5 +7,6 @@ export const Wrapper = styled.main`
   left: 0;
   top: 0;
   overflow: hidden;
-  z-index: -1000; ;
+  z-index: -1000;
+  background-color: ${({ theme }) => theme.colors.background};
 `
