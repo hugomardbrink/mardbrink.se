@@ -1211,11 +1211,6 @@
   resolved "https://registry.yarnpkg.com/@fontsource/aileron/-/aileron-4.5.3.tgz#cc6b1f1fe5505d4a83acccd909f3858c67224dd8"
   integrity sha512-pFqJqwhvNSb5bkrMRCJ66eyxtosPtR0THTfti6l1sl9vBWs7kQlu0mzXPdqr9qyLy82OnzsQhBGYCBszbbiV/w==
 
-"@fontsource/merriweather-sans@^4.5.8":
-  version "4.5.8"
-  resolved "https://registry.yarnpkg.com/@fontsource/merriweather-sans/-/merriweather-sans-4.5.8.tgz#6c2bfdcdb4abe68877141012c881f725e8bb39b2"
-  integrity sha512-9rg+d+t43R94wwq7BoBHXYPY1hOrZSYWq5gnfESaXrMQTaKMb9Sh6VvnvujAhOL+hwrtOXUwWTccT3JWdZaLnA==
-
 "@humanwhocodes/config-array@^0.9.2":
   version "0.9.5"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.9.5.tgz#2cbaf9a89460da24b5ca6531b8bbfc23e1df50c7"
