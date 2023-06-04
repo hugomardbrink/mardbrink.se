@@ -1,10 +1,10 @@
-import { createGlobalStyle } from 'styled-components/macro'
+import { createGlobalStyle } from 'styled-components'
 import '@fontsource/aileron'
 export const GlobalStyle = createGlobalStyle`
   
   @font-face {
     font-family: Ailerons;
-    src: url(./fonts/Ailerons.woff2) format(woff2)
+    src: url(./fonts/Ailerons.woff2) format(woff2);
     font-weight: 300;
     font-style: normal;
   }
