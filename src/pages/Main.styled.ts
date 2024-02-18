@@ -6,14 +6,13 @@ export const Wrapper = styled.main`
   width: 100%;
   left: 0;
   top: 0;
-  overflow: hidden;
   z-index: -1000;
 `
 
 export const Grain = styled.img`
   position: absolute;
-  height: 120%;
-  width: 120%;
+  height: 100%;
+  width: 100%;
   left: 0;
   top: 0;
   overflow: hidden;

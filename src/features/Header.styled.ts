@@ -43,14 +43,14 @@ export const PrimaryButton = styled.button`
 
   transition: box-shadow 0.25s, margin 0.25s;
 
-  box-shadow: 0 0 0 0 ${({ theme }) => theme.colors.secondary};
+  box-shadow: 0 0 0 0 ${({ theme }) => theme.colors.accent};
   margin-top: 0px;
   margin-right: 0px;
 
   &:hover {
     margin-top: -9px;
     margin-left: -9px;
-    box-shadow: 9px 9px 0 1px ${({ theme }) => theme.colors.secondary};
+    box-shadow: 9px 9px 0 1px ${({ theme }) => theme.colors.accent};
   }
 
   font-size: 24px;
