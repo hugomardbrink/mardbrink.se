@@ -8,16 +8,16 @@ export const Wrapper = styled.main`
   top: 0;
   overflow: hidden;
   z-index: -1000;
-  background-color: ${({ theme }) => theme.colors.background};
 `
 
-export const StartColor = styled.div`
+export const Grain = styled.img`
   position: absolute;
-  height: 600px;
-  width: 100%;
-  z-index: -100;
-
-  background-color: ${({ theme }) => theme.colors.selection};
+  height: 120%;
+  width: 120%;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  z-index: -999;
 `
 
 export const Layout = styled.div`

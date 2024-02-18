@@ -1,15 +1,12 @@
-import { Body } from '../features/Body'
 import { Header } from '../features/Header'
-import { Layout, StartColor, Wrapper } from './Main.styled'
+import { Grain, Wrapper } from './Main.styled'
+import GrainImage from '../../res/grain.png'
 
 export const Main = () => {
   return (
     <Wrapper>
-      <StartColor />
-      <Layout>
-        <Header />
-        <Body />
-      </Layout>
+      <Grain src={GrainImage} />
+      <Header />
     </Wrapper>
   )
 }

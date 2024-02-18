@@ -1,7 +1,7 @@
 {
   "colors": {
-    "background": "#232323",
-    "selection": "#006a6a",
-    "text": "#fbf8f3"
+    "primary": "#232323",
+    "secondary": "#fbf8f3",
+    "accent": "#006a6a"
   }
 }

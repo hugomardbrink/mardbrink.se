@@ -1,19 +1,15 @@
-import { Link, LinkTree, NameContainer, FirstRow, SecondRow, Wrapper } from './Header.styled'
-
-const GITHUB_LINK = 'https://github.com/hugomardbrink'
-const LINKEDIN_LINK = 'https://linkedin.com/in/hugomardbrink/'
+import { About, ButtonGroup, NameContainer, PrimaryButton, SecondaryButton, Wrapper } from './Header.styled'
 
 export const Header = () => {
   return (
     <Wrapper>
-      <FirstRow>
-        <NameContainer>Hugo Mårdbrink</NameContainer>
-        <LinkTree>
-          <Link href={GITHUB_LINK}>{'> Github'}</Link>
-          <Link href={LINKEDIN_LINK}>{'> LinkedIn'}</Link>
-        </LinkTree>
-      </FirstRow>
-      <SecondRow></SecondRow>
+      <NameContainer>HUGO</NameContainer>
+      <NameContainer>MARDBRINK</NameContainer>
+      <About>Social student with a passion for<br/>software and hardware co-design.</About>
+      <ButtonGroup>
+        <PrimaryButton>PROJECTS</PrimaryButton>
+        <SecondaryButton>BLOG</SecondaryButton>
+      </ButtonGroup>
     </Wrapper>
   )
 }

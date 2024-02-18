@@ -1,58 +1,82 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-  height: 600px;
-`
-
-export const FirstRow = styled.div`
-  display: flex;
-  justify-content: space-between;
-`
-export const SecondRow = styled.div``
-
-export const NameContainer = styled.span`
-  font-size: 48px;
-  font-weight: bold;
-`
-
-export const LinkTree = styled.div`
   display: flex;
   flex-direction: column;
-
-  margin-top: 8px;
+  height: 600px;
+  margin-top: 100px;
+  margin-left: 50px;
+  line-height: 0.9;
 `
 
-export const Link = styled.a`
-  text-decoration: none;
+export const NameContainer = styled.span`
+  position: relative;
+
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 120px;
+`
+
+export const About = styled.span`
+  position: relative;
+  margin-top: 90px;
+  line-height: 1.2;
+
+  font-size: 40px;
+  font-weight: 600;
+`
+
+export const ButtonGroup = styled.div`
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-top: 90px;
+  width: 500px;
+  justify-content: space-between;
+`
+
+export const PrimaryButton = styled.button`
+  height: 70px;
+  width: 240px;
+  border: none;
   cursor: pointer;
-  font-size: 20px;
-  color: ${({ theme }) => theme.colors.text};
+  background-color: ${({ theme }) => theme.colors.secondary};
+
+  transition: box-shadow 0.25s, margin 0.25s;
+
+  box-shadow: 0 0 0 0 ${({ theme }) => theme.colors.secondary};
+  margin-top: 0px;
+  margin-right: 0px;
 
   &:hover {
-    text-decoration: underline;
+    margin-top: -9px;
+    margin-left: -9px;
+    box-shadow: 9px 9px 0 1px ${({ theme }) => theme.colors.secondary};
   }
+
+  font-size: 24px;
+  color: ${({ theme }) => theme.colors.primary};
 `
 
-export const HeaderColor = styled.div`
-  position: absolute;
-  height: 600px;
-  width: 100%;
-  z-index: -100;
+export const SecondaryButton = styled.button`
+  height: 70px;
+  width: 200px;
+  border: 4px ${({ theme }) => theme.colors.secondary} solid;
+  cursor: pointer;
+  background-color: transparent;
 
-  background-color: ${({ theme }) => theme.colors.selection};
-`
+  transition: box-shadow 0.25s, margin 0.25s;
 
-export const About = styled.div`
-  margin-top: 70px;
+  box-shadow: 0 0 0 0 ${({ theme }) => theme.colors.secondary};
+  margin-top: 0px;
+  margin-right: 0px;
 
-  font-size: 28px;
-  width: 256px;
-`
+  &:hover {
+    margin-top: -9px;
+    margin-right: 9px;
+    box-shadow: 9px 9px 0 1px ${({ theme }) => theme.colors.secondary};
+  }
 
-export const Interest = styled.span`
-  font-size: 28px;
-
-  overflow: hidden;
-  white-space: nowrap;
-  margin: 0 auto;
+  font-size: 24px;
+  font-weight: bold;
+  color: ${({ theme }) => theme.colors.secondary};
 `
