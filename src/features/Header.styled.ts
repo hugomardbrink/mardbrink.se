@@ -34,12 +34,17 @@ export const ButtonGroup = styled.div`
   justify-content: space-between;
 `
 
-export const PrimaryButton = styled.button`
+export const PrimaryButton = styled.a`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   height: 70px;
   width: 240px;
   border: none;
   cursor: pointer;
   background-color: ${({ theme }) => theme.colors.secondary};
+  text-decoration: none;
 
   transition: box-shadow 0.25s, margin 0.25s;
 
@@ -57,12 +62,17 @@ export const PrimaryButton = styled.button`
   color: ${({ theme }) => theme.colors.primary};
 `
 
-export const SecondaryButton = styled.button`
-  height: 70px;
-  width: 200px;
-  border: 4px ${({ theme }) => theme.colors.secondary} solid;
+export const SecondaryButton = styled.a`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 60px;
+  width: 190px;
+  border: 5px ${({ theme }) => theme.colors.secondary} solid;
   cursor: pointer;
   background-color: transparent;
+  text-decoration: none;
 
   transition: box-shadow 0.25s, margin 0.25s;
 

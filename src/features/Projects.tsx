@@ -5,10 +5,9 @@ export const Projects = () => {
   const ModmarkPage = 'https://modmark.org/'
   const ModmarkCode = 'https://github.com/modmark-org/modmark'
 
-
   return (
     <Wrapper>
-      <Title>PROJECTS</Title>
+      <Title id="projects">PROJECTS</Title>
       <ProjectRow>
         <Module>
           <ModuleTitle>MODMARK</ModuleTitle>
