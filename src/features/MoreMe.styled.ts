@@ -32,7 +32,7 @@ export const ModuleGroup = styled.div`
   margin-top: 65px;
 `
 
-export const Module = styled.div`
+export const Module = styled.a`
   position: relative;
   display: flex;
   flex-direction: column;
@@ -82,6 +82,7 @@ export const Detail = styled.span`
   bottom: 20px;
   font-size: 24px;
   font-weight: 500;
+  color: ${({ theme }) => theme.colors.primary};
   text-decoration: none;
 
   &:hover {
