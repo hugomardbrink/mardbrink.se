@@ -1,7 +1,8 @@
 import { createContext, FC, ReactNode, useContext, useMemo, useState } from 'react'
 import { ThemeProvider as ThemesProvider } from 'styled-components'
 import dark from './variations/dark.json'
-import { GlobalStyle } from './GlobalStyle'
+import { GlobalStyle, Grain } from './GlobalStyle'
+import GrainImage from '../../res/grain.png'
 import light from './variations/light.json'
 
 const themes = { light, dark }
@@ -31,6 +32,7 @@ export const ThemeProvider: FC<ThemeProviderProps> = ({ children }) => {
     <ThemeContext.Provider value={value}>
       <ThemesProvider theme={theme}>
         <GlobalStyle />
+        <Grain src={GrainImage} />
         {children}
       </ThemesProvider>
     </ThemeContext.Provider>

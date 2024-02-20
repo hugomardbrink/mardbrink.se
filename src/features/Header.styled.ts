@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { NavLink } from 'react-router-dom'
 
 export const Wrapper = styled.div`
   display: flex;
@@ -62,7 +63,7 @@ export const PrimaryButton = styled.a`
   color: ${({ theme }) => theme.colors.primary};
 `
 
-export const SecondaryButton = styled.a`
+export const SecondaryButton = styled(NavLink)`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,4 +90,11 @@ export const SecondaryButton = styled.a`
   font-size: 24px;
   font-weight: bold;
   color: ${({ theme }) => theme.colors.secondary};
+`
+
+export const Wave = styled.img`
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 700px;
 `

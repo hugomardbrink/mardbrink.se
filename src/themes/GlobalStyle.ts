@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+import styled from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
 
@@ -25,4 +26,15 @@ export const GlobalStyle = createGlobalStyle`
     color: ${({ theme }) => theme.colors.accent};
     background: unset;
   }
+`
+
+export const Grain = styled.img`
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 1000;
 `
