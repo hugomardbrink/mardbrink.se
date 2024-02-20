@@ -59,7 +59,12 @@ export const ModuleButtonGroup = styled.div`
   margin-top: 40px;
 `
 
-export const ModulePrimaryButton = styled.button`
+export const ModulePrimaryButton = styled.a`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
   width: 200px;
   height: 60px;
   background-color: ${({ theme }) => theme.colors.secondary};
@@ -81,9 +86,14 @@ export const ModulePrimaryButton = styled.button`
   }
 `
 
-export const ModuleSecondaryButton = styled.button`
+export const ModuleSecondaryButton = styled.a`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
   width: 200px;
-  height: 60px;
+  height: 50px;
   background-color: transparent;
   color: ${({ theme }) => theme.colors.secondary};
   font-size: 20px;

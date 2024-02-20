@@ -2,6 +2,10 @@ import { ModmarkWrapper, ModmarkText, ModmarkIconBox, ModmarkIcon, Module, Modul
 import ModmarkLogo from '../../res/modmark.png'
 
 export const Projects = () => {
+  const ModmarkPage = 'https://modmark.org/'
+  const ModmarkCode = 'https://github.com/modmark-org/modmark'
+
+
   return (
     <Wrapper>
       <Title>PROJECTS</Title>
@@ -10,15 +14,14 @@ export const Projects = () => {
           <ModuleTitle>MODMARK</ModuleTitle>
           <ModuleText>A modular markup language built in Rust. The language utilises WebAssembly programs for easy package development.</ModuleText>
           <ModuleButtonGroup>
-            <ModulePrimaryButton>VISIT PAGE</ModulePrimaryButton>
-            <ModuleSecondaryButton>CODE</ModuleSecondaryButton>
+            <ModulePrimaryButton href={ModmarkPage}>VISIT PAGE</ModulePrimaryButton>
+            <ModuleSecondaryButton href={ModmarkCode}>CODE</ModuleSecondaryButton>
           </ModuleButtonGroup>
         </Module>
         <ModmarkWrapper>
           <ModmarkIconBox>
             <ModmarkIcon src={ModmarkLogo} />
           </ModmarkIconBox>
-
           <ModmarkText>[config]<br/>import catalog:prettify<br/><br/># [prettify](Header)<br/>[link](modmark.org)</ModmarkText>
         </ModmarkWrapper>
       </ProjectRow>
