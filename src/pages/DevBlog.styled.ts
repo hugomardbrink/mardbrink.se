@@ -3,7 +3,6 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  height: 600px;
   margin-top: 25px;
   margin-left: 50px;
   line-height: 0.9;
@@ -29,14 +28,29 @@ export const HomeLink = styled.a`
   }
 `
 
+export const PostWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-right: 44px;
+`
+
 export const PostModule = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 70px;
-  width: 550px;
-  height: 250px;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  width: 525px;
+  height: 225px;
   border: 5px ${({ theme }) => theme.colors.secondary} solid;
   box-shadow: 9px 9px 0 1px ${({ theme }) => theme.colors.secondary};
+`
+
+export const PostHeader = styled.div`
+  display: flex;
+  flex-direction: column;
 `
 
 export const PostTitle = styled.span`
@@ -72,11 +86,11 @@ export const ModulePrimaryButton = styled.a`
   transition: box-shadow 0.25s, margin 0.25s;
 
   box-shadow: 0 0 0 0 ${({ theme }) => theme.colors.accent};
-  margin-top: 75px;
+  margin-bottom: 25px;
   margin-left: 35px;
 
   &:hover {
-    margin-top: 66px;
+    margin-bottom: 34px;
     margin-left: 26px;
     box-shadow: 9px 9px 0 1px ${({ theme }) => theme.colors.accent};
   }
