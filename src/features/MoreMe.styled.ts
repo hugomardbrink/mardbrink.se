@@ -1,7 +1,7 @@
 import styled from 'styled-components'
-import { ReactComponent as DividerSvg } from '../../res/divider.svg'
-import { ReactComponent as GithubSvg } from '../../res/github.svg'
-import { ReactComponent as EmailSvg } from '../../res/email.svg'
+import { ReactComponent as DividerSvg } from '../../res/graphics/divider.svg'
+import { ReactComponent as GithubSvg } from '../../res/graphics/github.svg'
+import { ReactComponent as EmailSvg } from '../../res/graphics/email.svg'
 
 export const Wrapper = styled.div`
   display: flex;

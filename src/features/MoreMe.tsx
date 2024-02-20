@@ -1,4 +1,13 @@
-import { Detail, Divider, EmailIcon, GithubIcon, Title, Module, ModuleGroup, Wrapper } from './MoreMe.styled'
+import {
+  Detail,
+  Divider,
+  EmailIcon,
+  GithubIcon,
+  Title,
+  Module,
+  ModuleGroup,
+  Wrapper,
+} from './MoreMe.styled'
 
 export const MoreMe = () => {
   const GithubLink = 'https://github.com/hugomardbrink'

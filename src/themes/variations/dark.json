@@ -1,7 +1,7 @@
 {
   "colors": {
+    "accent": "#006a6a",
     "primary": "#232323",
-    "secondary": "#fbf8f3",
-    "accent": "#006a6a"
+    "secondary": "#fbf8f3"
   }
 }

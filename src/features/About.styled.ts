@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { ReactComponent as DividerSvg } from '../../res/divider.svg'
+import { ReactComponent as DividerSvg } from '../../res/graphics/divider.svg'
 
 export const Wrapper = styled.div`
   display: flex;

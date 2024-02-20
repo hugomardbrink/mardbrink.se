@@ -2,7 +2,7 @@ import { createContext, FC, ReactNode, useContext, useMemo, useState } from 'rea
 import { ThemeProvider as ThemesProvider } from 'styled-components'
 import dark from './variations/dark.json'
 import { GlobalStyle, Grain } from './GlobalStyle'
-import GrainImage from '../../res/grain.png'
+import GrainImage from '../../res/graphics/grain.png'
 import light from './variations/light.json'
 
 const themes = { light, dark }
