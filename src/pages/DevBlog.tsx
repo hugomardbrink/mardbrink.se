@@ -1,6 +1,4 @@
 import { Title, HomeLink, PostWrapper, PostModule, PostTitle, PostDate, PostHeader, ModulePrimaryButton, Wrapper } from './DevBlog.styled'
-import testPost from '../../res/posts/Test.md?raw'
-import examplePost from '../../res/posts/Example.md?raw'
 
 export const DevBlog = () => {
   interface Post {
@@ -9,12 +7,7 @@ export const DevBlog = () => {
     text: string
   }
 
-  const Posts: Post[] = [
-    { name: 'TEST POST', date: new Date(2024, 2, 20, 13, 20), text: testPost },
-    { name: 'EXAMPLE BLOG POST', date: new Date(2024, 2, 22, 14, 29), text: examplePost },
-    { name: 'EXAMPLE BLOG POST', date: new Date(2024, 2, 22, 14, 29), text: examplePost },
-    { name: 'EXAMPLE BLOG POST', date: new Date(2024, 2, 22, 14, 29), text: examplePost },
-  ]
+  const Posts: Post[] = []
 
   return (
     <Wrapper>
