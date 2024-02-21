@@ -9,7 +9,11 @@ import {
 } from './Header.styled'
 import WaveImage from '../../res/graphics/wave.png'
 
-export const Header = () => {
+interface ProjectsProps {
+  scrollToProjects: () => void
+}
+
+export const Header = (props: ProjectsProps) => {
   return (
     <Wrapper>
       <Wave src={WaveImage} />
@@ -21,7 +25,7 @@ export const Header = () => {
         software and hardware co-design.
       </About>
       <ButtonGroup>
-        <PrimaryButton href="#projects">PROJECTS</PrimaryButton>
+        <PrimaryButton onClick={props.scrollToProjects}>PROJECTS</PrimaryButton>
         <SecondaryButton to="/blog">BLOG</SecondaryButton>
       </ButtonGroup>
     </Wrapper>

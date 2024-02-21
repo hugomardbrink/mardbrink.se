@@ -15,13 +15,17 @@ import {
 } from './Projects.styled'
 import ModmarkLogo from '../../res/graphics/modmark.png'
 
-export const Projects = () => {
+interface ProjectsProps {
+  scrollToProjects: any
+}
+
+export const Projects = (props: ProjectsProps) => {
   const ModmarkPage = 'https://modmark.org/'
   const ModmarkCode = 'https://github.com/modmark-org/modmark'
 
   return (
-    <Wrapper>
-      <Title id="projects">PROJECTS</Title>
+    <Wrapper ref={props.scrollToProjects}>
+      <Title>PROJECTS</Title>
       <ProjectRow>
         <Module>
           <ModuleTitle>MODMARK</ModuleTitle>
