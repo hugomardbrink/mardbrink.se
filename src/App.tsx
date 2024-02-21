@@ -7,7 +7,6 @@ const App = () => {
   return (
     <ThemeProvider>
       <Routes>
-        <Route index element={<Main />} />
         <Route path="" element={<Main />} />
         <Route path="/blog" element={<DevBlog />} />
         <Route path="*" element={<p>There's nothing here: 404!</p>} />
